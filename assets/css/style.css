@@ -11,6 +11,7 @@ body {
   background-image: url("../images/backgrd.png");
 }
 
+/*main header*/
 header {
   background:#4aaaa5;
   color:#ffffff;
@@ -22,16 +23,29 @@ header {
   float:left;
   margin:auto;
   margin-top: 0px;
-  margin-left: 55px;
+  margin-left: 50px;
   font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   text-align: center;
 }
 
-#img{
-padding:20px;
+/* connect with me icons*/
+.img1 {
+padding: 15px;
 float:left;
+width:90px;
+height:90px;
 }
 
+#profile_image{
+padding:20px;
+float:left; 
+}
+
+a{
+text-decoration: none;
+}
+
+/*main content block*/
 .main-content{
   clear:both;
   overflow: auto;
@@ -41,112 +55,100 @@ float:left;
   font-size:20px;
   float:left;
   width:650px;
-  margin-top: 70px;
-  margin-left:170px;
-  padding: 1em;
-  overflow: hidden;
-  margin:auto;
+  margin: 50px;
+  padding:30px;
 }
 
+/*Nav Bar*/
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     color: #777777;
     font-size: 20px;
-    font-weight: bold;
 }
 
 li {
     float: right;
     text-align: center;
-    padding: 24px 26px;
-}
+    width: 280px;
+    height: 80px;
+    padding:20px;
 
+  }
 
+/*header 2*/
 h2{
 color: #4aaaa5;
 font-size: 30px;
-border-bottom: 2px solid #dddddd;
-padding: 20px;
+border-bottom: 2px solid #777777;
+padding: 10px;
 font-weight: bold;
 font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.me {
-  border-bottom-style: solid;
-  border-color: #777777;
-}
-
+/*connect with me block*/
 .connect{
-float:right;
+float:left;
 width: 270 px;
 background: white;
-padding: 5px;
-margin: 150px;
+padding:20px;
+margin-top:50px;
+border:2px solid #dddddd;
 }
 
 .footer {
 background: #666666;
 clear:both;
-overflow: auto;
 padding: 24px 15px;
-margin: 0;
 color:#efeee7;
 font size: 28px;
 text-align: center;
 width:100%;
-border-style:solid;
-border-color:#4aaaa5;
+border:solid #4aaaa5;
 border-width:5px 0px 0px 0px;  
 }
 
+/*contact.html class*/
 .line2{
 border:2px solid #dddddd;
 }
 
+/*contact.html class Submit button*/
 .button {
   background:#4aaaa5;
   color:#ffffff;
-  border:2px solid #cccccc;
+  border:1px solid #cccccc;
   font-size:20px;
   padding:1px;
   width:22%;
   text-align: center;
 }
+
+/*contact.html class*/
 .box{
  border:2px solid #dddddd; 
- padding: 70px;
+ padding: 80px;
  margin-bottom: 10px;
 }
 
-#img_p {
-padding:20px;
-float:left;
-
-}
-
-.button_p1 {
+/*Portfolio.html classes*/
+.label_p{
   background:#4aaaa5;
   color:#ffffff;
-  border:2px solid #cccccc;
   font-size:20px;
-  padding:1px;
+  padding:5px;
   width:100%;
   text-align: center;
   position: absolute;
   right: 0px;
-  bottom: 2px;
-  margin: auto;
+  bottom: 4px;
 }
 
 .portfolio1{
-  border:2px solid #cccccc;
   padding:1px;
   width:270px;
   height:150px;
-  margin: 10px;
+  margin:10px;
   background-image: url("../images/p1.jpg");
   background-repeat: no-repeat;
   float: left;
@@ -154,7 +156,6 @@ float:left;
 
 }
 .portfolio2{
-  border:2px solid #cccccc;
   padding:1px;
   width: 270px;
   height:150px;
@@ -167,7 +168,6 @@ float:left;
 }
 
 .portfolio3{
-  border:2px solid #cccccc;
   padding:1px;
   width:270px;
   height:150px;
@@ -180,7 +180,6 @@ float:left;
 }
 
 .portfolio4{
-  border:2px solid #cccccc;
   padding:1px;
   width:270px;
   height:150px;
@@ -193,7 +192,6 @@ float:left;
 }
 
 .portfolio5{
-  border:2px solid #cccccc;
   padding:1px;
   width:270px;
   height:128px;
