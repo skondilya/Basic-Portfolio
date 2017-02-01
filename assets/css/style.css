@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font: 'Georgia', Times, Times New Roman, serif;
   background-image: url("../images/backgrd.png");
 }
 
@@ -17,10 +17,12 @@ header {
   border:2px solid #cccccc;
   font-size:30px;
   font-weight: bold;
-  padding: 25px;
-  width:33%;
+  padding:21px;
+  width:22%;
   float:left;
   margin:auto;
+  margin-top: 0px;
+  margin-left: 55px;
   font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   text-align: center;
 }
@@ -34,8 +36,7 @@ float:left;
   clear:both;
   overflow: auto;
   background: #ffffff;
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  border color: #dddddd;
+  border:2px solid #dddddd;
   color: #777777;
   font-size:20px;
   float:left;
@@ -52,6 +53,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    color: #777777;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 li {
@@ -64,7 +68,10 @@ li {
 h2{
 color: #4aaaa5;
 font-size: 30px;
-border-bottom: 2px solid #777777;
+border-bottom: 2px solid #dddddd;
+padding: 20px;
+font-weight: bold;
+font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .me {
@@ -93,5 +100,84 @@ width:100%;
 border-style:solid;
 border-color:#4aaaa5;
 border-width:5px 0px 0px 0px;  
+}
+
+.line2{
+border:2px solid #dddddd;
+}
+
+.button {
+  background:#4aaaa5;
+  color:#ffffff;
+  border:2px solid #cccccc;
+  font-size:20px;
+  padding:1px;
+  width:22%;
+  text-align: center;
+}
+.box{
+ border:2px solid #dddddd; 
+ padding: 70px;
+ margin-bottom: 10px;
+}
+
+#img_p {
+padding:20px;
+float:left;
+width:250px;
+height:228px;
+}
+
+.button_p1 {
+  background:#4aaaa5;
+  color:#ffffff;
+  border:2px solid #cccccc;
+  font-size:20px;
+  padding:1px;
+  width:22%;
+  text-align: center;
+  
+}
+
+
+.button_p2 {
+  background:#4aaaa5;
+  color:#ffffff;
+  border:2px solid #cccccc;
+  font-size:20px;
+  padding:1px;
+  width:22%;
+  text-align: center;
+}
+
+.button_p3 {
+  background:#4aaaa5;
+  color:#ffffff;
+  border:2px solid #cccccc;
+  font-size:20px;
+  padding:1px;
+  width:22%;
+  text-align: center;
+
+}
+
+.button_p4 {
+  background:#4aaaa5;
+  color:#ffffff;
+  border:2px solid #cccccc;
+  font-size:20px;
+  padding:1px;
+  width:30%;
+  text-align: center;
+}
+
+.button_p5 {
+  background:#4aaaa5;
+  color:#ffffff;
+  border:2px solid #cccccc;
+  font-size:20px;
+  padding:1px;
+  width:30%;
+  text-align: center;
 }
 
