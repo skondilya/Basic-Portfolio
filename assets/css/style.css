@@ -124,8 +124,7 @@ border:2px solid #dddddd;
 #img_p {
 padding:20px;
 float:left;
-width:250px;
-height:228px;
+
 }
 
 .button_p1 {
@@ -134,50 +133,76 @@ height:228px;
   border:2px solid #cccccc;
   font-size:20px;
   padding:1px;
-  width:22%;
+  width:100%;
   text-align: center;
-  
+  position: absolute;
+  right: 0px;
+  bottom: 2px;
+  margin: auto;
 }
 
-
-.button_p2 {
-  background:#4aaaa5;
-  color:#ffffff;
+.portfolio1{
   border:2px solid #cccccc;
-  font-size:20px;
   padding:1px;
-  width:22%;
-  text-align: center;
-}
+  width:270px;
+  height:150px;
+  margin: 10px;
+  background-image: url("../images/p1.jpg");
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
 
-.button_p3 {
-  background:#4aaaa5;
-  color:#ffffff;
+}
+.portfolio2{
   border:2px solid #cccccc;
-  font-size:20px;
   padding:1px;
-  width:22%;
-  text-align: center;
+  width: 270px;
+  height:150px;
+  margin: 10px;
+  background-image: url("../images/p2.jpg");
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
 
 }
 
-.button_p4 {
-  background:#4aaaa5;
-  color:#ffffff;
+.portfolio3{
   border:2px solid #cccccc;
-  font-size:20px;
   padding:1px;
-  width:30%;
-  text-align: center;
+  width:270px;
+  height:150px;
+  margin: 10px;
+  background-image: url("../images/p3.jpg");
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+
 }
 
-.button_p5 {
-  background:#4aaaa5;
-  color:#ffffff;
+.portfolio4{
   border:2px solid #cccccc;
-  font-size:20px;
   padding:1px;
-  width:30%;
-  text-align: center;
+  width:270px;
+  height:150px;
+  margin: 10px;
+  background-image: url("../images/p4.jpg");
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+
 }
+
+.portfolio5{
+  border:2px solid #cccccc;
+  padding:1px;
+  width:270px;
+  height:128px;
+  margin: 10px;
+  background-image: url("../images/p5.jpg");
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+
+}
+
 
